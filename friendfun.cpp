@@ -22,8 +22,8 @@ box add(box x,box y)
 {
     box t;
     t.l = x.l +y.l;
-    t.w = x.w+ x.w;
-    t.h = x.h + x.h;
+    t.w = x.w+ y.w;
+    t.h = x.h + y.h;
     return t;
 
 }
